@@ -1,0 +1,29 @@
+:root{
+    --color-background: hsl(321 5% 18%);
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+body{
+    background: var(--color-background);
+    min-height: 100vh;
+}
+.title{
+    color: #ffffff;
+    text-align: center;
+}
+.img_list{
+    text-align: center;
+}
+.list_1{
+    position:relative;
+}
+.list_2{
+    position:relative;
+}
+.list_3{
+    position: relative;
+}
