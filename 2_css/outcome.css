@@ -37,26 +37,8 @@ h2{
 
     position: relative;
 }
-.again-button::before{
-    pointer-events: none;
-    content: '';
-    position: absolute;
-    background: var(--color-neon);
 
-    top: 120%;
-    left: 0;
-    width: 100%;
-    height: 100%;
-
-    transform:
-        perspective(1em)
-        rotateX(40deg)
-        scale(1, 0.35);
-
-    filter: blur(1.5em);
-    opacity: 0.7;
-}
-.again-button::after {
+.again_button::after {
     content: '';
     position: absolute;
     top:0;
@@ -78,19 +60,19 @@ h2{
         opacity 100ms linear;
 }
 
-.again-button:hover,
-.again-button:focus {
+.again_button:hover,
+.again_button:focus {
     color: var(--color-background);
     text-shadow: none;
 
 }
 
-.again-button:hover::before,
-.again-button:focus::before{
+.again_button:hover::before,
+.again_button:focus::before{
     opacity: 1;
 }
 
-.again-button:hover::after,
-.again-button:focus::after{
+.again_button:hover::after,
+.again_button:focus::after{
     opacity: 1;
 }
