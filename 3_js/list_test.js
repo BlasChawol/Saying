@@ -1,5 +1,5 @@
 var list_output = 0;
-var max_number = 149;
+var max_number = 176;
 var row = 0;
 var column = 0;
 var last_row = Math.floor ( max_number / 3 ) + 1 ;
