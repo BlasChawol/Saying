@@ -5,15 +5,15 @@ for ( ; img_number < 0; img_number = img_number + max_number){}
 var r_1 = Math.floor(Math.random()*10);
 var r_2 = Math.floor(Math.random()*10);
 
-if (img_number_1 == 175){
+if (img_number == 175){
     if (r_1 == 7){
         if (r_2 == 3){}
         else {
-            img_number_1 = img_number_1 - r_1;
+            img_number = img_number - r_1;
         }
     }
     else{
-        img_number_1 = img_number_1 + r_2;
+        img_number = img_number + r_2;
     }
 }
 document.write(
