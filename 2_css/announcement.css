@@ -1,0 +1,56 @@
+:root{
+    --color-background: hsl(321 5% 18%);
+    --color-neon: hsl(0 100 100% / 0.3);
+    --color-list: rgb(67,67,67);
+}
+body{
+    background: var(--color-background);
+    padding-left: 20%;
+    width: 60%;
+}
+.center{
+    text-align: center;
+}
+.title{
+    text-align: center;
+    color: red;
+    cursor: default;
+}
+.announcement{
+    cursor: default;
+    background: var(--color-list);
+}
+.announcement_title{
+    text-align: center;
+    color: red;
+}
+.list{
+    text-align: center;
+}
+.list_top{
+    border: 0.125em solid #ffffff;
+}
+.list_title{
+    color: aqua;
+}
+.time_color{
+    color: yellow;
+}
+.text{
+    color: #ffffff;
+}
+
+.back_button{
+    color: #ffffff;
+    border: 0.125em solid #ffffff;
+    background: var(--color-list);
+    border-radius: 3px;
+    text-decoration: none;
+    padding: 0.125em 1em;
+}
+
+.announcement_end{
+    text-align: center;
+    color: dimgray;
+    cursor: default;
+}
