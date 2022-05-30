@@ -6,8 +6,6 @@
 
 body{
     background: var(--color-background);
-    padding-left: 20%;
-    width: 60%;
 }
 .title{
     text-align: center;
@@ -65,7 +63,8 @@ body{
     text-decoration: none;
     padding: 0.125em 1em;
 }
-
-.activity_button{
+/*
+.activity_unready_button{
     cursor: not-allowed;
 }
+*/

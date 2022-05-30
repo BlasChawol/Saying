@@ -1,0 +1,29 @@
+:root{
+    --color-background: hsl(321 5% 18%);
+    --color-neon: hsl(0 100 100% / 0.3);
+    --color-text: rgb(67,67,67);
+}
+
+body{
+    background: var(--color-background);
+}
+.title{
+    text-align: center;
+    color: #ffffff;
+}
+.text_div{
+    background: var(--color-text);
+    text-align: center;
+}
+.text_title{
+    color: yellow;
+}
+.text{
+    color: #ffffff;
+}
+.text_rule{
+    color: aqua;
+}
+.time_title{
+    color:#7DB9DE;
+}

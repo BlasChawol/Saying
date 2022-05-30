@@ -1,0 +1,12 @@
+@media screen  and (min-width : 1200px){
+    body{
+        padding-left: 30%;
+        width: 40%;
+    }
+}
+@media screen and (min-width : 700px)  and (max-width : 1200px){
+    body{
+        padding-left: 20%;
+        width: 60%;
+    }
+}
