@@ -1,4 +1,4 @@
-var max_number = 178;
+var max_number = 191;
 var img_number = Math.floor(Math.random()*1000);
 for ( ; img_number > max_number; img_number =  img_number - max_number) {}
 for ( ; img_number < 0; img_number = img_number + max_number){}
