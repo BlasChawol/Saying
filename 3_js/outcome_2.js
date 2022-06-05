@@ -1,4 +1,4 @@
-var max_number = 191;
+var max_number = 198;
 var img_number_1 = Math.floor(Math.random()*1000);
 var img_number_2 = Math.floor(Math.random()*3000);
 var random_1 = Math.floor(Math.random()*10);
